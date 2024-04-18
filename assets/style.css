@@ -1,0 +1,111 @@
+/* GENERALES */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+p {
+    font-size: .8rem;
+}
+
+/* SECCION 2 EFREN */
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-image: url('../images/curve.png'); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: Arial, sans-serif;
+}
+  
+.caja {
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    margin: 20px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+  
+.imagen-cont {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+  
+.imagen {
+    width: 200px; 
+    height: auto;
+}
+  
+.texto {
+    text-align: center; 
+}
+  
+.boton {
+    padding: 10px 200px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+/* SECCION 2 EFREN */
+
+/* SECCION 4 BENJA*/
+
+.tittle{
+    text-align: center;
+    padding: 100px;
+    border-top: 1px solid rgb(100, 100, 100);
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    column-gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    -moz-box-shadow: 1px 1px 19px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 19px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 19px 1px rgba(0,0,0,0.75);
+    
+}
+
+.card_description{
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    margin-top: 100px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+/* SECCION 4 BENJA*/
