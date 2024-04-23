@@ -11,8 +11,11 @@ body{
     padding: 0;
 }
 
-h2{
+h1{
     font-size: 1.5rem;
+}
+h2{
+    font-size: 1.3rem;
 }
 
 h3{
@@ -23,6 +26,36 @@ p {
     font-size: .8rem;
 }
 
+/* SECCION 1 NICO */
+header {
+    display: flex;
+    flex-direction: column;  
+}
+
+.contenedor_nav {
+    background-color: #69ff4be1; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor_nav a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 10px;
+    color: black;
+
+}
+.tittle {
+    text-align: center; 
+    padding: 5px; 
+    margin: 100px 100px 50vh 100px;
+}
+
+/* SECCION 1 NICO */
+
 /* SECCION 2 EFREN */
 
 .contenedor {
@@ -30,7 +63,7 @@ p {
     justify-content: center; 
     align-items: center; 
     height: 100vh; 
-    background-image: url('../images/curve.png'); 
+    background-image: url('/images/curve.png'); 
     background-size: cover; 
     background-position: center; 
     font-family: Arial, sans-serif;
@@ -62,7 +95,7 @@ p {
   
 .boton {
     padding: 10px 200px;
-    background-color: green;
+    background-color: #69ff4be1;
     color: white;
     border: none;
     border-radius: 5px;
@@ -71,12 +104,38 @@ p {
   
 /* SECCION 2 EFREN */
 
+/* SECCION 3 ISMA */
+.container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Espacio incluso entre elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .h {
+    display: flex; /* Agregamos flex para que los elementos internos se alineen horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos internos */
+    flex-direction: column; /* Aplicamos columna para alinear el texto debajo de la imagen */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .t1, .t2 {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+.t1 p {
+    font-weight: bold;
+}
+/* SECCION 3 ISMA */
+
 /* SECCION 4 BENJA*/
 
-.tittle{
+.subtittle{
     text-align: center;
-    padding: 100px;
-    border-top: 1px solid rgb(100, 100, 100);
+    padding: 50 px 100 px 100px 100px;
+    border-top: 1px solid rgba(223, 223, 223, 0.63);
 }
 
 .container{
